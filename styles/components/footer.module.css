@@ -1,0 +1,14 @@
+.top{
+    display: flex;
+    background-color: #f7f0ea;
+    justify-content: space-between;
+}
+
+.top p{
+    display: flex;
+    flex-direction: column;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}

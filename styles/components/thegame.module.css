@@ -1,0 +1,189 @@
+  .header {
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;background-color: #f7f0ea;
+
+  }
+
+  .header h1 {
+      font-weight: 500;
+      color: brown;
+  }
+
+  .content p {
+      position: absolute;
+      bottom: 30px;
+      display: flex;
+      align-items: center;
+      left: 30px;
+      background-color: white;
+      padding: 10px;
+      gap: 5px;
+      z-index: 99;
+      border-radius: 15px;
+      cursor: pointer;
+  }
+
+  .content {
+      position: relative;
+  }
+  .content img {
+    height: 400px;
+  }
+
+  .title {
+      position: absolute;
+      top: 0;
+      padding: 20px;
+      background-color: white;
+      opacity: 0.92;
+      height: 100%;
+      font-size: 20px;
+      letter-spacing: 3px;
+      transition: 0.5s;
+      font-weight: 200;
+            /* width: 100%; */
+      /* display: none; */
+  }
+.tit{
+    display: none;
+        transition: 0.5s;
+}
+  .top {
+      position: relative;
+      height: 100%;
+      width: 100%;
+  }
+  .flexout{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 50px;
+  }
+
+
+
+  /* css for  swiper packages */
+
+
+  .swiper {
+      width: 100%;
+      height: 100%;
+  }
+
+  .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+ .carousel .rcarousel-arrow {
+     color: red;
+     /* Change this to the desired arrow color */
+ }
+ .carousel{
+    /* background-color: #f9d7c4; */
+    background-color: black;
+    color: white;
+    padding: 120px 0px 80px 0px;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 30px; */
+ }
+ .word{
+    padding: 70px;
+   
+    font-size: 30px;
+    text-align: center;
+ }
+  .categories {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 80px;
+      gap: 40px;
+  }
+
+  .sort {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .sort h4 {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 500;
+      padding-bottom: 70px;
+      font-family: "Times New Roman", Times, serif;
+  }
+
+  .sort h3 {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-weight: 400;
+      font-size: 17px;
+  }
+
+  .sort p {
+      font-weight: 200;
+      color: gray;
+  }
+
+  .sort span {
+      font-size: 55px;
+      letter-spacing: 10px;
+  }
+
+  .sort img {
+      width: 100%;
+      height: 80%;
+  }
+
+  .container img{
+   height: 50%;
+  }
+
+  .deal{
+        background-color: black;
+        padding: 110px;
+        color: white;
+        display: flex;
+            justify-content: space-between;
+            margin-top: -30px;
+  }
+  .deal h2{
+    font-weight: 500;
+    font-size: 35px;
+  }
+  .restriction{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .restriction p{
+    font-size: 20px;
+  }
+
+  .restriction span{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    gap: 20px;
+  }
